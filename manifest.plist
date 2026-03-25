@@ -6,7 +6,9 @@
 </head>
 <body>
     <h1>点击下方按钮安装 App</h1>
-    <a href="itms-services://?action=download-manifest&url=https://github.com/minhdatcuteik09-ship-it/ios-dist/manifest.plist" 
+    <a href="itms-services://?action=download-manifest&url=https://minhdatcuteik09-ship-it.github.io/ios-dist/manifest.plist">
+    立即安装 App
+</a>
        style="font-size:20px; color:white; background:blue; padding:10px; text-decoration:none; border-radius:5px;">
         立即安装
     </a>
