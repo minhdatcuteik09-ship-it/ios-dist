@@ -1,29 +1,16 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iOS App 内测分发</title>
-    <style>
-        body { font-family: -apple-system, sans-serif; text-align: center; padding-top: 50px; }
-        .btn {
-            display: inline-block;
-            padding: 15px 30px;
-            background-color: #007AFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 10px;
-            font-weight: bold;
-            font-size: 18px;
-        }
-    </style>
+    <title>iOS App 下载</title>
 </head>
-<body>
+<body style="text-align: center; padding-top: 100px; font-family: sans-serif;">
     <h2>App 内测安装</h2>
-    <p>请使用 iPhone 的 Safari 浏览器打开此页面</p>
     <br>
-    <a class="btn" href="itms-services://?action=download-manifest&url=https://minhdatcuteik09-ship-it.github.io/ios-dist/manifest.plist">
-        立即安装 App
+    <a href="itms-services://?action=download-manifest&url=https://minhdatcuteik09-ship-it.github.io/ios-dist/manifest.plist" 
+       style="padding: 15px 30px; background: #007AFF; color: white; text-decoration: none; border-radius: 10px; font-weight: bold;">
+        点击安装 App
     </a>
 </body>
 </html>
